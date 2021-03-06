@@ -8,10 +8,14 @@
     * [Video](#video)
     * [Article](#article)
     * [Dart](#dart)
+    * [Best practices](#best-practices)
+    * [Tips](#tips)
+    * [Interview](#interview)
     * [SplashScreen](#splashscreen)
     * [Container](#container)
     * [Widget](#widget)
       * [Text](#text)
+      * [Button](#button)
       * [ListView](#listview)
       * [Drawer](#drawer)
       * [TabBar](#tabbar)
@@ -21,28 +25,37 @@
       * [Bottom Sheet](#bottom-sheet)
       * [Backdrop](#backdrop)
       * [Custom](#custom)
+      * [Forms](#forms)
+      * [Menu](#forms)
     * [Icon](#icon)
     * [Animation](#animation)
     * [Navigation](#navigation)
     * [Transform](#transform)
-    * Async
+    * [Internationalization](#internationalization)
+    * [Async/Await](#async)
     * [Database](#database)
     * [Http](#http)
     * [Logging](#logging)
+    * [Doc](#doc)
     * [Test](#test)
     * [CD/CI](#cd/ci)
     * [Kotlin](#kotlin)
     * [Plugin](#plugin)
-    * [BloC](#bloc)
+    * [State Management]
+      * [BloC](#bloc)
+      * [Riverpod](#riverpod)
     * [MVC](#mvc)
     * [Redux](#redux)
     * [Libraries](#libraries)
     * [Firebase](#firebase)
+      * [Firestore](#firestore)
     * [Maps](#maps)
     * [Game](#game)
   * [iOS](#ios)
   * [Design](#design)
   * [Resources](#resources)
+    *[Survey](#survey)
+  * [Blog](#blog)
 
 
 # Flutter
@@ -84,6 +97,7 @@
 * 03/2018 [Flutter challenge - Egg timer](https://medium.com/fluttery/flutter-challenge-egg-timer-ui-fffae11f4883)
 
 ## Article
+* 02/2021 [Why Flutter has become a hot trend in mobile app development?](https://medium.com/radixweb/why-flutter-has-become-a-hot-trend-in-mobile-app-development-55dc8cf080c9)
 * 12/2018 [Flutter the sky's the limit](https://edit.theappbusiness.com/flutter-the-skys-the-limit-84887c8f650d)
 * 12/2018 [10 rumors about Flutter, Why its not worse than Android](https://proandroiddev.com/mythbuster-10-rumors-about-flutter-why-its-not-worse-than-android-kotlin-f1a1acbe587d)
 * 11/2018 [Flutter: the good, the bad and the ugly](https://medium.com/asos-techblog/flutter-vs-react-native-for-ios-android-app-development-c41b4e038db9)
@@ -94,13 +108,22 @@
 ## Dart
 * 01/2019 [Dart tips #1](https://medium.com/flutter-community/1-flutter-dart-tips-830854c3a418)
 
+## Best practices
+* 04/2020 [Geting started: Creating your Flutter project](https://dash-overflow.net/articles/getting_started/)
+
+## Tips
+* 02/2021 [10 tips after 3 years of development](https://betterprogramming.pub/10-flutter-tips-i-learned-after-3-years-of-flutter-development-7a7dbb697fe2)
+
+## Interview
+* 01/2020 [Flutter interview question](https://kathir-i.medium.com/flutter-interview-question-2c56bb3a802f)
+
 ## Container
 * 05/2018 [Flutter Layout Cheat Sheet](https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e)
 * 05/2018 [Container cheat sheet](https://medium.com/jlouage/container-de5b0d3ad184)
 * 05/2018 [Row / Column cheat sheet](https://medium.com/jlouage/flutter-row-column-cheat-sheet-78c38d242041)
 
 ## Widget
-* 01/2019 [State management setState is the easiest](https://medium.com/flutter-community/flutter-state-management-setstate-fn-is-the-easiest-and-the-most-powerful-44703c97f035)
+* 02/2021 [Shadows and Neumorphism](https://medium.com/flutter-community/shadows-and-neumorphism-in-flutter-703a3e500503)
 * 01/2019 [Timing the display of widgets](https://medium.com/flutter-community/flutter-timing-the-display-of-widgets-8c788402d8ca)
 * 01/2019 [State management has never been easier](https://medium.com/flutter-community/flutter-state-management-has-never-been-easier-think-statelessly-then-add-reactivity-d30c75760da0)
 * 12/2018 [Adding a border to a widget](https://medium.com/@studymongolian/adding-a-border-to-a-widget-in-flutter-d387bc5d7cff)
@@ -116,14 +139,26 @@
 
 ### Text
 * [Official Text overview](https://flutter.io/docs/development/ui/widgets/text)
+* 02/2021 [A visual guide to text affinity](https://medium.com/flutter-community/a-visual-guide-to-text-affinity-in-flutter-94ef3ea98794)
 * 12/2018 [Auto complete search list](https://medium.com/flutter-community/implementing-auto-complete-search-list-a8dd192bd5f6)
 * 09/2018 [Form & Validator](https://medium.com/flutterpub/flutter-form-and-validator-e90453ba57d2)
+#### Package
+* [Animated text kit](https://awesomeopensource.com/project/aagarwal1012/Animated-Text-Kit)
+
+### Button
+* 02/2021 [Button types with examples](https://medium.com/app-dev-community/flutter-button-types-with-examples-10ae487621a3)
+* 02/2021 [New Material buttons](https://blog.logrocket.com/new-material-buttons-in-flutter)
+* 01/2021 [Toogle buttons in multiple rows](https://donnatam.medium.com/flutter-toggle-buttons-in-multiple-rows-with-spacing-and-rounded-corners-9882bd98fb27)
 
 ### ListView
+* 03/2021 [Expansion Tile](https://medium.com/flutterdevs/expansion-tile-in-flutter-d2b7ba4a1f4b)
+* 02/2021 [Select item of list](https://nitishk72.medium.com/flutter-select-item-of-list-213295a281f8)
 * 11/2018 [ListView & ScrollPhysics](https://medium.com/flutter-community/flutter-listview-and-scrollphysics-a-detailed-look-7f0912df2754)
 * 10/2018 [Slivers demystified](https://medium.com/flutter-io/slivers-demystified-6ff68ab0296f)
 * 07/2018 [Displaying dynamic ListView](https://medium.com/@DakshHub/flutter-displaying-dynamic-contents-using-listview-builder-f2cedb1a19fb)
 * 07/2018 [ListItemView & ViewModel](https://medium.com/fluttery/what-even-are-flutter-widgets-ce537a048a7d)
+### Package
+* [Vertical Card Pager](https://medium.com/flutterdevs/vertical-card-pager-in-flutter-5aa9123e60b6)
 
 ### Drawer
 * 06/2018 [Creating drawers](https://proandroiddev.com/flutter-creating-drawers-e31414f7d71a)
@@ -134,6 +169,7 @@
 * 04/2018 [Widget TabBar](https://flutterdoc.com/widgets-tabbar-5f2ae6777ee4)
 
 ### GridView
+* 11/2020 [Custom photos GridView item](https://anwar-kantarji.medium.com/flutter-custom-gridview-item-a6578fbfa79b)
 * 04/2018 [Pinterest style photo grids](https://medium.com/@ezra_69528/flutter-pinterest-style-photo-grids-b99289584b71)
 * 02/2018 [Staggered GridView](https://medium.com/@lets4r/flutorial-create-a-staggered-gridview-9c881a9b0b98)
 
@@ -144,6 +180,7 @@
 * 01/2019 [The power of WebView](https://medium.com/flutter-io/the-power-of-webviews-in-flutter-a56234b57df2)
 
 ### BottomTabBar
+* 02/2021 [A modern Navbar](https://karthikjn01.medium.com/a-cool-and-modern-navbar-in-flutter-106d995de8e5)
 * 12/2018 [Bottom Tab Bar animation](https://medium.com/@tonyowen/flutter-bottom-tab-bar-animation-75d1ca58c096)
 
 ### Bottom Sheet
@@ -153,11 +190,29 @@
 * 05/2018 [Implement backdrop with Flutter](https://medium.com/@CORDEA/implement-backdrop-with-flutter-73b4c61b1357)
 
 ### Custom
+* 02/2021 [Measure Slider](https://codepen.io/jogboms/pen/QWGpLWN)
 * 01/2019 [Use gesture with CustomPainter](https://medium.com/flutteropen/canvas-tutorial-05-how-to-use-the-gesture-with-the-custom-painter-in-the-flutter-3fc4c2deca06)
 * 10/2018 [Clipping in Flutter](https://medium.com/flutter-community/clipping-in-flutter-e9eaa6b1721a)
 
+### Forms
+* 02/2021 [Building forms in Flutter](https://medium.com/prime-holding-jsc/building-forms-in-flutter-454b8d65f48)
+
+### Menu
+* [Long press context menu](https://gist.github.com/rydmike/871121bd83f8c649069cb24f5e23720d)
+
+### Onboarding
+* 01/2021 [App Onboarding experience](https://reime005.medium.com/app-onboarding-experience-in-flutter-90d772aaf284)
+
+### ColorPicker
+* [Slide Color Picker](https://codepen.io/jogboms/pen/NWbveba)
+
+### Canvas
+* [Graphical custom view canvas](https://www.programmersought.com/article/42201025395/)
+
+
 ## Icon
 * [Flutter Icon](http://fluttericon.com/)
+* [Phosphoricons](https://phosphoricons.com/)
 * 11/2018 [Launcher icons dart packages](https://pub.dartlang.org/packages/flutter_launcher_icons)
 
 ## Animation
@@ -166,15 +221,37 @@
 * 12/2018 [Password validation animation](https://medium.com/flutter-community/flutter-password-validation-animation-79ab2bceb600)
 * 10/2018 [Animating widgets](https://hackernoon.com/animating-widgets-in-flutter-413882881e98)
 * 03/2018 [Login animation](https://blog.geekyants.com/flutter-login-animation-ab3e6ed4bd19)
+### Tools
+* [Liquid studio](https://felixblaschke.github.io/liquid-studio/#/)
+Compose multiple layers in a WYSIWYG environment and generate the Dart code
+### Github
+* [Funvas - Creativecreator](https://github.com/creativecreatorormaybenot/funvas)
+* [Flutterwave card deck - JosteveGit](https://github.com/JosteveGit/flutterwave_card_deck)
+* [Fireworks - Creativecreator](https://github.com/creativecreatorormaybenot/fireworks)
+* [Path finding visualizer](https://github.com/sammanan4/Path-Finding-Visualizer)
 
 ## Navigation
+* 02/2021 [Flutter Navigator 2.0 and Deep links](https://www.raywenderlich.com/19457817-flutter-navigator-2-0-and-deep-link)
 * 01/2019 [Building a custom page load animation](https://medium.com/flutter-community/building-a-custom-page-load-animation-in-flutter-89f9aaa51e93)
 * 12/2018 [Advance routing and navigator](https://medium.com/@nitishk72/flutter-advance-routing-and-navigator-df0f86f0974f)
 
 ## Transform
 * 06/2018 [Perspective on Flutter](https://medium.com/flutter-io/perspective-on-flutter-6f832f4d912e)
 
+## Charts
+* 11/2020 [Bezier chart](https://github.com/aeyrium/bezier-chart)
+* 02/2021 [Animated chart in Flutter - fl_chart](https://medium.com/flutterdevs/animated-chart-in-flutter-6f28387f398b)
+* 02/2021 [Introducing Spark Charts Widget](https://medium.com/syncfusion/introducing-the-new-flutter-spark-charts-widget-c590aa16fd12)
+
+## Internationalization
+### Tools
+* https://www.codeandweb.com/babeledit
+
+## Async/Await
+* 02/2021 [Delayed code execution - BLoC/Provider](https://itnext.io/delayed-code-execution-in-flutter-23d60b51e76f)
+
 ## Database
+* 01/2021 [CRUD application within 3 minutes - SQFlite/Datatable](https://medium.com/app-dev-community/flutter-crud-application-tutorial-within-3-minutes-for-flutter-developers-7c5db85fdbd9)
 * 12/2018 [Using SQLite in Flutter](https://medium.com/flutter-community/using-sqlite-in-flutter-187c1a82e8b)
 * 09/2018 [Jaguar ORM](https://pub.dartlang.org/packages/jaguar_orm)
 
@@ -188,14 +265,30 @@
 ## Logging
 * 01/2019 [Fimber](https://pub.dartlang.org/packages/fimber)
 
+## Doc
+* 03/2021 [Widget documentation](https://medium.com/flutter-community/doc-widget-b1ce609ba635)
+
+## Codebase
+* 02/2021 [Perfect Flutter Codebase using two linting methods](https://www.youtube.com/watch?v=KEdxoubVztk)
+
 ## Test
+* 03/2021 [Firebase Test Lab – Flutter Tips of the month Ineat company series](https://blog.ineat-group.com/2021/03/firebase-test-lab-flutter-tips-of-the-month-8/)
+* 02/2021 [Testing fundamentals of Flutter course](https://verygood.ventures/blog/testing-fundamentals-of-flutter-course)
+* 02/2021 [Mocking network calls](https://medium.com/@akshat.kaneria/testing-in-flutter-mocking-network-calls-c05884fad233)
+* 01/2021 [Screenshot testing as a solid UI regression tool](https://medium.com/flutter-community/flutter-screenshot-testing-as-a-solid-ui-regression-tool-630221a621e4)
 * 12/2018 [Adding testing to a Flutter app](https://medium.com/@domesticmouse/adding-testing-to-a-flutter-app-8a0b2dd8bcf2)
 * 04/2018 [Testing Flutter applications](https://proandroiddev.com/testing-flutter-applications-f961969da86a)
 
 ## CD/CI
+* 02/2021 [Flutter Pubspec and private Gitlab Repositories](https://medium.com/flutter-community/flutter-pubspec-and-private-gitlab-repositories-d092a4648639)
 * 01/2019 [CI/CD for Flutter](https://medium.com/flutter-community/cicd-for-flutter-fdc07fe52abd)
 * 01/2019 [Automated screenshots](https://medium.com/flutter-community/automated-screenshots-for-flutter-f78be70cd5fd)
 * 01/2019 [How to enable Dart linting to become a Flutter code ninja](https://medium.com/flutter-community/watch-your-code-dart-flutter-lint-55a697d01c8d)
+### Tools
+* [Codemagic](https://codemagic.io/start/)
+
+## UML
+* 02/2021 [UML coolness in Flutter](https://itnext.io/uml-coolness-in-flutter-6bb14217b5f2)
 
 ## Kotlin
 * 01/2019 [Kt.dart better collections](https://medium.com/flutter-community/kt-dart-better-collections-for-your-flutter-business-logic-41886ab7883)
@@ -205,41 +298,60 @@
 * 01/2019 [Creating DialogBox plugin](https://medium.com/flutter-community/creating-a-flutter-plugin-dialog-box-78adbff15fe)
 * 04/2018 [Build your own plugin](https://proandroiddev.com/build-your-own-plugin-for-flutter-cfee1a08ea3a)
 
-## BloC
+## State Management
+* 01/2019 [State management setState is the easiest](https://medium.com/flutter-community/flutter-state-management-setstate-fn-is-the-easiest-and-the-most-powerful-44703c97f035)
+
+### BloC
 * 10/2018 [Login tutorial with BloC](https://medium.com/flutter-community/flutter-login-tutorial-with-flutter-bloc-ea606ef701ad)
 
-## MVC
+### Riverpod
+* 02/2021 [Flutter State Management with Riverpod: The Essential Guide](https://codewithandrea.com/videos/flutter-state-management-riverpod/)
+* 02/2021 [Riverpod simplified — An introduction to Flutter’s most advanced state management package](https://felixblaschke.medium.com/riverpod-simplified-an-introduction-to-flutters-most-advanced-state-management-package-c698b4d5a019)
+
+## Architecture
+* 04/2020 [Flutter and Provider using Stacked](https://www.filledstacks.com/post/flutter-and-provider-architecture-using-stacked/)
+
+### MVC
 * 10/2018 [MVC at last](https://medium.com/flutter-community/flutter-mvc-at-last-275a0dc1e730)
 * 05/2018 [Flutter in MVC](https://proandroiddev.com/flutter-in-mvc-437ed7cead2e)
 
-## Redux
+### Redux
 * 05/2018 [Shopping list app](https://hackernoon.com/flutter-redux-how-to-make-shopping-list-app-1cd315e79b65)
 
-## Libraries
+## Package
+* [Flutter Gems - Flutter package landscape](https://fluttergems.dev/)
+* 02/2021 [Creating and publishing a Flutter package](https://www.raywenderlich.com/19421827-creating-and-publishing-a-flutter-package)
 * 11/2018 [Percent indicator](https://pub.dartlang.org/packages/percent_indicator)
 * 07/2018 [Animated background](https://pub.dartlang.org/packages/animated_background)
 * 06/2017 [Material components codelabs](https://github.com/maryx/material-components-flutter-codelabs/tree/RATP-end-state)
 
+## Accessibility
+* 02/2021 [Offline speech recognition with Picovoice](https://medium.com/picovoice/offline-speech-recognition-in-flutter-no-siri-no-google-and-no-its-not-speech-to-text-c960180e9239)
+
 ## Firebase
+* [FlutterFire - A set of Flutter official plugins](https://firebase.flutter.dev/docs/overview/)
 * 12/2018 [Flutter vision, Firebase ML Vision, Firestore](https://medium.com/google-cloud/flutter-vision-flutter-firebase-ml-vision-firebase-cloud-firestore-76f3794f5d38)
+### Firestore
+* 02/2020 [Firestore pagination and realtime update](https://nunes-nelson.medium.com/flutter-firestore-pagination-and-realtime-update-a55133ff3ebd)
 
 ## Maps
 * 12/2018 [Google maps & Flutter](https://medium.com/flutter-io/google-maps-and-flutter-cfb330f9a245)
 
 ## Game
+* 02/2021 [Tic Tac Toe game](https://github.com/JohannesMilke/tic_tac_toe_example)
 * 01/2019 [Creating piano tiles game](https://medium.com/flutter-community/ui-challenge-piano-tiles-in-flutter-19bc56139fda)
 * 01/2019 [Creating minesweeper game](https://medium.com/flutter-community/creating-minesweeper-in-flutter-12c74486324f)
 * 01/2019 [Creating solitaire game](https://medium.com/flutter-community/creating-solitaire-in-flutter-946c34ef053c)
 * 11/2018 [Creating the T-Rex game](https://medium.com/dextra-digital/creating-the-t-rex-game-with-flutter-and-flame-6d01add1ad5b)
 
-# iOS
+## iOS
 * 01/2019 [How to sign Flutter apps without a mac](https://medium.com/flutter-community/how-to-sign-flutter-apps-for-ios-automatically-without-a-mac-a2dc9cfa5a6c)
 
-# Design
+## Design
+* 11/2020 [Glassmorphism in UI](https://uxdesign.cc/glassmorphism-in-user-interfaces-1f39bb1308c9)
 * 10/2018 [Flutter UIKit](https://github.com/iampawan/Flutter-UI-Kit)
 
-
-# Resources
+## Resources
 * [Documentation](https://docs.flutter.io/)
 * [Github](https://github.com/flutter/flutter)
 * [StackOverflow](https://stackoverflow.com/questions/tagged/flutter)
@@ -264,3 +376,11 @@
 * [Google APIs](https://pub.dartlang.org/packages/googleapis)
 * [Async and Futures](https://www.dartlang.org/tutorials/language/futures)
 * [Testing](https://flutter.io/testing/)
+
+### Survey
+* [Q4 2020](https://medium.com/flutter/are-you-happy-with-flutter-q4-2020-user-survey-results-41cdd90aaa48)
+* [Q3 2020](https://medium.com/flutter/flutter-on-the-web-slivers-and-platform-specific-issues-user-survey-results-from-q3-2020-f8034236b2a8)
+
+## Blog
+* [Dash-overflow - Remi Rousselet](https://dash-overflow.net/)
+* [Reso Coder](https://resocoder.com/blog/)
