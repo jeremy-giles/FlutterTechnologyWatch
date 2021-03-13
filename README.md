@@ -1,19 +1,25 @@
 ![FlutterTechnologyWatch Logo](/res/top_banner.jpg)
 
-## Categories
-  * [Flutter](#flutter)
-    * [App](#app)
-    * [Tutorial](#tutorial)
+## Summary
     * [Presentation](#presentation)
-    * [Video](#video)
-    * [Article](#article)
-    * [Dart](#dart)
+    
+    * [Survey](#survey)
+    
+    * [Resources](#resources)
+      * [Article](#article)
+      * [Video](#video)
+      * [Blog](#blog)
+      * [App](#app)
+      * [Interview](#interview)
+      
+    * [Tutorial](#tutorial)
     * [Best practices](#best-practices)
     * [Tips](#tips)
-    * [Interview](#interview)
-    * [SplashScreen](#splashscreen)
-    * [Container](#container)
+    
+    * [Dart](#dart)
+    
     * [Widget](#widget)
+      * [Container](#container)
       * [Text](#text)
       * [Button](#button)
       * [ListView](#listview)
@@ -33,43 +39,48 @@
       * [Tools](#tools)
       * [Github](#github)
     * [Navigation](#navigation)
+    * [SplashScreen](#splashscreen)
     * [Transform](#transform)
     * [Internationalization](#internationalization)
+    
+    * [State Management](#state_management)
+       * [BloC](#bloc)
+       * [Riverpod](#riverpod)
+       
+    * [Architecture](#architecture)
+      * [MVC](#mvc)
+      * [Redux](#redux)
+    
     * [Async/Await](#async)
     * [Database](#database)
     * [Http](#http)
     * [LifeCycle](#lifecycle)
+    
     * [Logging](#logging)
     * [Doc](#doc)
     * [Test](#test)
     * [CD/CI](#cd/ci)
-    * [Kotlin](#kotlin)
+    
     * [Plugin](#plugin)
-    * [State Management]
-      * [BloC](#bloc)
-      * [Riverpod](#riverpod)
-    * [Architecture]
-      * [MVC](#mvc)
-    * [Redux](#redux)
     * [Libraries](#libraries)
+    
     * [Firebase](#firebase)
       * [Firestore](#firestore)
+      
     * [Maps](#maps)
+    
     * [Game](#game)
+    
+  * [Kotlin](#kotlin)
   * [iOS](#ios)
+  
   * [Design](#design)
-  * [Resources](#resources)
-    *[Survey](#survey)
-  * [Blog](#blog)
 
 
-# Flutter
+## Flutter
 * [Official site](https://flutter.io/)
 * [Official doc](https://flutter.io/docs)
 * [Awesome Flutter](https://github.com/Solido/awesome-flutter)
-
-## App
-* 09/2018 [Pokemon app](https://github.com/iampawan/PokemonApp)
 
 ## Tutorial
 * 01/2019 [Wishlist app](https://medium.com/flutter-community/wishlist-for-flutter-in-2019-65009e2d1ca8)
@@ -441,3 +452,4 @@ Compose multiple layers in a WYSIWYG environment and generate the Dart code
 * [Flutter Gallery App Code](https://github.com/flutter/flutter/tree/master/examples/flutter_gallery)
 * [Flutter Gallery Android App](https://play.google.com/store/apps/details?id=io.flutter.demo.gallery)
 * [Flutter Movie Concept UI](https://github.com/hackerhgl/invmovieconcept1)
+* [Pokemon app](https://github.com/iampawan/PokemonApp)
