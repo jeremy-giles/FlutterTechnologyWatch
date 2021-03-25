@@ -35,6 +35,7 @@
   - [Forms](#forms)
   - [Menu](#forms)
   - [Icon](#icon)
+  - [Photo](#photo)
   - [Charts](#charts)
   - [Onboarding](#onboarding)
   - [ColorPicker](#colorpicker)
@@ -193,6 +194,7 @@
   * [Pokemon app](https://github.com/iampawan/PokemonApp)
 
 ## Dart
+* 01/2021 [Dart Playbook](https://www.codepur.dev/dart-playbook/)
 * 01/2021 [Working with generic types in Dart](https://pedrolemoz.medium.com/working-with-generic-types-in-dart-fe2011e62326)
 * 01/2021 [Working with Sockets in Dart](https://medium.com/flutter-community/working-with-sockets-in-dart-15b443007bc9)
 * 12/2002 [Nullability in Dart](https://levelup.gitconnected.com/nullability-in-dart-b5e699d43199)
@@ -242,6 +244,7 @@
   * 01/2021 [Toogle buttons in multiple rows](https://donnatam.medium.com/flutter-toggle-buttons-in-multiple-rows-with-spacing-and-rounded-corners-9882bd98fb27)
 
   ### ListView
+  * 03/2021 [List Lazy loading](https://medium.com/theotherdev-s/getting-to-know-flutter-list-lazy-loading-1cb0ed5de91f)
   * 03/2021 [Expansion Tile](https://medium.com/flutterdevs/expansion-tile-in-flutter-d2b7ba4a1f4b)
   * 02/2021 [Select item of list](https://nitishk72.medium.com/flutter-select-item-of-list-213295a281f8)
   * 02/2020 [Search/Filter ListView with Provider and model classes](https://stackoverflow.com/questions/60333739/search-filter-listview-with-provider-and-model-classes)
@@ -253,6 +256,7 @@
     * [Vertical Card Pager](https://medium.com/flutterdevs/vertical-card-pager-in-flutter-5aa9123e60b6)
 
   ### Drawer
+  * 03/2021 [Zoom Drawer in Flutter](https://medium.com/flutterdevs/zoom-drawer-in-flutter-a69dbb20b29a)
   * 06/2018 [Creating drawers](https://proandroiddev.com/flutter-creating-drawers-e31414f7d71a)
 
   ### TabBar
@@ -305,10 +309,14 @@
   * [Phosphoricons](https://phosphoricons.com/)
   * 11/2018 [Launcher icons dart packages](https://pub.dartlang.org/packages/flutter_launcher_icons)
 
+  ### Photo
+  * 03/2021 [PhotoView in Flutter](https://medium.com/flutterdevs/photoview-influtter-be29f167aa0f)
+
   ### Charts
-  * 11/2020 [Bezier chart](https://github.com/aeyrium/bezier-chart)
+  * 02/2021 [7 best Flutter Charts for visualizing income and expenditure](https://medium.com/syncfusion/7-best-flutter-charts-for-visualizing-income-and-expenditure-5af00e85a3b)
   * 02/2021 [Animated chart in Flutter - fl_chart](https://medium.com/flutterdevs/animated-chart-in-flutter-6f28387f398b)
   * 02/2021 [Introducing Spark Charts Widget](https://medium.com/syncfusion/introducing-the-new-flutter-spark-charts-widget-c590aa16fd12)
+  * 11/2020 [Bezier chart](https://github.com/aeyrium/bezier-chart)
 
   ### Onboarding
   * 01/2021 [App Onboarding experience](https://reime005.medium.com/app-onboarding-experience-in-flutter-90d772aaf284)
@@ -318,6 +326,7 @@
 
 ## Animation
 * 01/2021 [Recreating the iconic Star Wars intro in Flutter](https://arthur.hashnode.dev/amp/recreating-the-iconic-star-wars-intro-in-flutter)
+* 06/2020 [Introducing Flutter's new animations package](https://blog.logrocket.com/introducing-flutters-new-animations-package/)
 * 01/2019 [Opacity animated series](https://medium.com/flutter-community/flutter-animated-series-animated-opacity-c11137883a8d)
 * 01/2019 [Animated series, animated containers](https://medium.com/flutter-community/flutter-animated-series-animated-containers-52a5d52c0ad3)
 * 12/2018 [Password validation animation](https://medium.com/flutter-community/flutter-password-validation-animation-79ab2bceb600)
@@ -382,6 +391,9 @@
   * 02/2021 [Flutter State Management with Riverpod: The Essential Guide](https://codewithandrea.com/videos/flutter-state-management-riverpod/)
   * 02/2021 [Riverpod simplified — An introduction to Flutter’s most advanced state management package](https://felixblaschke.medium.com/riverpod-simplified-an-introduction-to-flutters-most-advanced-state-management-package-c698b4d5a019)
 
+    #### App
+    * [Worldtime clock - Mobile, Web & Desktop](https://github.com/lohanidamodar/flutter_worldtime)
+
   ### Get_it
  * 05/2019 [Flutter Architecture - My Provider implementation guide](https://www.filledstacks.com/post/flutter-architecture-my-provider-implementation-guide/)
 
@@ -401,6 +413,9 @@
 * 02/2021 [Delayed code execution - BLoC/Provider](https://itnext.io/delayed-code-execution-in-flutter-23d60b51e76f)
 * 06/2020 [FutureBuilder, how to wait for your async tasks](https://medium.com/swlh/flutter-futurebuilder-383b6ed63f18)
 
+  ###YouTube
+  * 03/2021 [Featherweight Isolates in Flutter](https://www.youtube.com/watch?v=SXT7nir1B48)
+
 ## StreamBuilder
 * 01/2021 [StreamBuilder - Local & Network - Github](https://github.com/JohannesMilke/streambuilder_example)
 
@@ -418,6 +433,7 @@
 ## Http
 * [Parsing, manipulating, querying and formatting dates - package](https://pub.dev/packages/jiffy)
 * 04/2020 [Networking in Flutter - Quick guide](https://itnext.io/networking-in-flutter-quick-guide-c491819a64f0)
+* 12/2019 [Get data from a Rest API and save locally](https://medium.com/swlh/flutter-get-data-from-a-rest-api-and-save-locally-in-a-sqlite-database-9a9de5867939)
 * 09/2019 [Dio Interceptors in Flutter](https://medium.com/flutter-community/dio-interceptors-in-flutter-17be4214f363)
 * 04/2019 [Flutter fetch posts from Worpress part 1](https://mozartec.com/flutter-fetch-posts-from-wordpress-part-1/)
 * 01/2019 [Chopper - http client generator (inspired from Retrofit)](https://github.com/lejard-h/chopper)
@@ -430,6 +446,7 @@
   * [Json placeholder api](https://jsonplaceholder.typicode.com/)
 
 ## Lifecycle
+* 03/2021 [App Lifecycle in Flutter](https://levelup.gitconnected.com/app-lifecycle-in-flutter-e4ba686d16fe)
 * 01/2021 [Flutter application lifecycle](https://blog.learncodeonline.in/amp/flutter-application-lifecycle)
 
 ## Logging
@@ -532,4 +549,8 @@
 ## Design
 * 11/2020 [Glassmorphism in UI](https://uxdesign.cc/glassmorphism-in-user-interfaces-1f39bb1308c9)
 * 10/2018 [Flutter UIKit](https://github.com/iampawan/Flutter-UI-Kit)
+
+ ### App
+ * [Doctor App - Home screen starting point](https://github.com/hosain-mohamed/doctor-app)
+ * [DevFolio - Portfolio for Developers - Android & Web](https://github.com/m-hamzashakeel/DevFolio)
 
