@@ -387,6 +387,7 @@
   * 10/2018 [Login tutorial with BloC](https://medium.com/flutter-community/flutter-login-tutorial-with-flutter-bloc-ea606ef701ad)
 
   ### Riverpod
+  * 03/2021 [Riverpod - An advanced provider](https://medium.com/@aaron.chu/riverpod-an-advanced-provider-4bfa8c1fa479)
   * 03/2021 [Simplify Flutter State management with Riverpod](https://blog.codemagic.io/flutter-state-management-with-riverpod/)
   * 02/2021 [Flutter State Management with Riverpod: The Essential Guide](https://codewithandrea.com/videos/flutter-state-management-riverpod/)
   * 02/2021 [Riverpod simplified — An introduction to Flutter’s most advanced state management package](https://felixblaschke.medium.com/riverpod-simplified-an-introduction-to-flutters-most-advanced-state-management-package-c698b4d5a019)
@@ -547,6 +548,7 @@
 * 01/2019 [How to sign Flutter apps without a mac](https://medium.com/flutter-community/how-to-sign-flutter-apps-for-ios-automatically-without-a-mac-a2dc9cfa5a6c)
 
 ## Design
+* 03/2021 [Adobe XD to Flutter plugin](https://medium.com/flutter-community/adobe-xd-to-flutter-plugin-6eede357d21c)
 * 11/2020 [Glassmorphism in UI](https://uxdesign.cc/glassmorphism-in-user-interfaces-1f39bb1308c9)
 * 10/2018 [Flutter UIKit](https://github.com/iampawan/Flutter-UI-Kit)
 
